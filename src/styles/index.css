@@ -8,12 +8,12 @@ font-style: bold;
 }
 
 body {
-    background-color: #1a3b1a;
+    background-color: #242424;
     color: #fff;
     font-family: "PT Sans", serif;
 }
 .navbar {
-    background-color: #2e5a2e;
+    background-color: #1b1b1b;
 }
 .navbar-nav .nav-link {
     color: #b8e994;

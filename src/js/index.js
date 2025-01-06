@@ -27,6 +27,7 @@ $(document).ready(function() {
             type: 'GET',
             success: function(data) {
                 const taxa = data.conversion_rate;
+                
                 $('.exchange-rate').text(`1 ${moeda1} = ${taxa} ${moeda2}`);
                 $('#converted').val(taxa * $('#amount').val());  // Colocar a taxa no campo de conversão
             },
@@ -34,6 +35,7 @@ $(document).ready(function() {
                 alert('Erro ao realizar a conversão.');
             }
         });
+
     }
 
     loadCurrencies();
